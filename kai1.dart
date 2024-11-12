@@ -235,9 +235,7 @@ class _KAIHomePageState extends State<KAIHomePage> {
                       ],
                     ),
                     ElevatedButton(
-                      onPressed: () {
-                        // Tambahkan aksi untuk tombol
-                      },
+                      onPressed: () {},
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent,
                         foregroundColor: Colors.white,
@@ -410,7 +408,6 @@ class _KAIHomePageState extends State<KAIHomePage> {
             ),
             TextButton(
               onPressed: () {
-                // Logika pemesanan tiket
                 Navigator.of(context).pop();
               },
               child: Text('Pesan'),
